@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</head>
+<header>
+	<h1>Mortal Kombat Hangman</h1>
+	<h2 class="poweredby">Powered by </h2>
+	<h2 class="name"> Harith Alrubaye </h2>
+</header>
+<body>
+<section class="container">
+  <img src="assets/images/logo.jpg" alt="pepe" id="picChange"/>
+  <h2 class="Win">Wins: <span id="score">0</span></h2>
+  <h2 class="Lose">Loses: <span id="loses">0</span></h3>
+  <h2 id="status">Current Word:</h2>
+  <h4 id="blanks"></h4>
+  <h2 id="completion">Choose your destiny</h2>
+  <h3>Letters Already Guessed: </h3>
+  <p id="wrongGuesses"></p>
+  <h2 class="Lives">Lives: <span id="remain">10</span></h2>
+</section>
+</body>
+</html>

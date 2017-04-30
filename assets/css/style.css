@@ -1,0 +1,121 @@
+
+header {
+	background-image: url(../images/banner.png);
+	background-size: 100% auto;
+	top: 0;
+	height: 100px;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	border-bottom: 5px solid #1e0000;
+}
+h1 {
+	padding-top: 25px;
+	font-family: 'Abril Fatface', cursive;
+	color:#b10007;
+	font-size: 48px;
+	
+}
+
+.poweredby
+{
+	    float: left;
+    line-height: 0;
+    margin-left: 40px;
+    color: #5f5e57;
+}
+.name
+{
+	    float: right;
+    line-height: 0;
+    margin-right: 40px;
+    color:#5f5e57;
+}
+body {
+	background-image: url(../images/background.jpg);
+}
+/* container for the game */
+.container {
+  margin: 10px auto;
+  width: 65%;
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #6C0C17;
+  background-image:url(../images/containerbackground.jpg);
+}
+h2 {
+	
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 1.5;
+}
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	color: #7E1020;
+	font-size: 18px;
+	line-height: 1.5;
+}
+h4 {
+	font-family: "Arial", sans-serif;
+	color: #23558A;
+	text-shadow:
+			-1px -1px 0 #6C0C17,  
+    		1px -1px 0 #6C0C17,
+    		-1px 1px 0 #6C0C17,
+     		1px 1px 0 #6C0C17;
+	font-size: 26px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+p {
+	font-weight: bold;
+	color: #23558A;
+	text-transform: uppercase;
+}
+/* Establish game image parameters */
+img {
+	width: 250px;
+	height: 250px;
+	margin-bottom:40px;
+	margin-left:-88px;
+}
+#blanks {
+	letter-spacing: .25em;
+}
+
+
+.Win
+{
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	color: #7a9a7a;
+}
+.Lose
+{
+	font-family: 'Abril Fatface', cursive;
+	float: left;
+	color:  #7a9a7a;
+	margin-top:47px;
+	margin-left: -85px;
+}
+.Lives
+{
+font-family: 'Abril Fatface', cursive;
+	float: right;
+	color:  #7a9a7a;
+	margin-top: -390px;
+	margin-right: 25px;
+}
+#completion
+{
+	font-family: 'Abril Fatface', cursive;
+	color: #9c9c9c;
+}
+
+
+#status
+{
+font-family: 'Abril Fatface', cursive;
+	color: #9c9c9c;	
+}
+
